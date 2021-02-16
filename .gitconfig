@@ -1,0 +1,11 @@
+[user]
+	name = eric
+    email = eric_leijf@qq.com
+
+[core]
+    editor = vim
+[alias]
+	last = log -1 HEAD
+	graph = log --all --graph --decorate
+	co = checkout
+	br = branch
