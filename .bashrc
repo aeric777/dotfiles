@@ -15,15 +15,12 @@ esac
 # ============================================================
 
 
-
-
-
-
 # jump_command
 # """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 alias goto_C="cd ~/coding/c"
 alias goto_C++="cd ~/coding/c++"
 alias goto_PY="cd ~/coding/py3"
+alias goto_DOT="cd ~/Documents/config_files/dotfiles"
 
 
 # mistake-typing
@@ -34,9 +31,9 @@ alias dc="cd"
 
 # secur-typing
 # """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-alias rmi="rm -i"
-alias cp="cp -i"
-alias mv="mv -i"
+alias rmi="rm -r -i"
+alias cpi="cp -i"
+alias mvi="mv -i"
 
 
 # short-command
@@ -45,9 +42,14 @@ alias ..="cd .."
 alias ll="ls -lath --color=auto"
 alias sdn="shutdown now"
 alias tls="tmux ls"
+alias tks="tmux kill-session -t"
+
+
+# git-short-command
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 alias gs="git status"
 alias gc="git commit"
-alias tks="tmux kill-session -t"
+
 
 
 
