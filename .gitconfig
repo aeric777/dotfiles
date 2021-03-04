@@ -10,3 +10,5 @@
 	graph = log --all --graph --decorate --oneline
 	co = checkout
 	br = branch
+[credential]
+	helper = cache
