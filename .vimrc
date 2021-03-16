@@ -8,6 +8,8 @@ set nocompatible " VI compatible mode is disabled so that VIm things work
 "   PLUGINS
 " =============================================================================
 "To be perfected
+map <F3> :NERDTreeMirror<CR>
+map <F3> :NERDTreeToggle<CR>
 
 
 
