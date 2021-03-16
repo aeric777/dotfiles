@@ -15,6 +15,7 @@ esac
 # ============================================================
 source ~/Working/coding/Shell-script/del.sh
 source ~/Working/coding/Shell-script/mcd.sh
+alias cd="mcd"
 
 
 # ============================================================
