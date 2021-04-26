@@ -19,6 +19,12 @@ alias cd="mcd"
 
 
 # ============================================================
+# self-add environment variable
+# ============================================================
+export TEMPO2=/usr/share/tempo2
+# export PASSWD=1       #Be careful!!! Can be seen by every user in this system!!! 
+
+# ============================================================
 # self-add command
 # ============================================================
 
