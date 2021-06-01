@@ -13,9 +13,8 @@ esac
 # ============================================================
 # self-add Shell-script
 # ============================================================
-source ~/Documents/dotfiles/protable_shell_script/del.sh
-source ~/Documents/dotfiles/protable_shell_script/mcd.sh
-alias cd="mcd"
+source ~/Documents/dotfiles/portable_shell_script/del.sh
+source ~/Documents/dotfiles/portable_shell_script/cdls.sh
 
 
 # ============================================================
