@@ -1,25 +1,41 @@
-echo "This bash script helps you finish relative setting "
+echo "====================================================="
+echo "*This bash script helps you finish relative setting "
 echo "====================================================="
 
 
 cd ~
 mkdir .junk
-echo "**********Successfully creat .junk in ~/"
+echo "***Successfully creat .junk in your home directory"
 
 ln -s Documents/dotfiles/.bashrc .bashrc
+echo "***Successfully link .bashrc"
+
 ln -s Documents/dotfiles/.vimrc .vimrc
+echo "***Successfully link .vimrc"
+
 ln -s Documents/dotfiles/auto_update/.update .update
+echo "***Successfully link .update"
+
 # ln -s Documents/dotfiles/.zshrc .zshrc
+echo "***Successfully link .zshrc"
+
 # ln -s Documents/dotfiles/.tmux.conf .tmux.conf
+echo "***Successfully link .tmux.conf"
+
 # ln -s Documents/dotfiles/.gitconfig .gitconfig
-echo "**********Successfully link relative dotfiles"
+echo "***Successfully link .gitconfig"
 
 source .bashrc
-echo "**********Successfully source .bashrc"
+echo "***Successfully source .bashrc"
 
 # source .zshrc 
+echo "***Successfully source .zshrc"
+
 # source .tmux.conf 
+echo "***Successfully source .tmux.conf"
+
 # source .gitconfig 
+echo "***Successfully source .gitconfig"
 
 
 echo "====================================================="
