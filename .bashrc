@@ -13,8 +13,8 @@ esac
 # ============================================================
 # self-add Shell-script
 # ============================================================
-source ~/Working/coding/Shell-script/del.sh
-source ~/Working/coding/Shell-script/mcd.sh
+source ~/Documents/dotfiles/protable_shell_script/del.sh
+source ~/Documents/dotfiles/protable_shell_script/mcd.sh
 alias cd="mcd"
 
 

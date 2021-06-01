@@ -1,0 +1,4 @@
+(sudo -S apt update ) < ~/Documents/dotfiles/auto_update/.passwd;
+(sudo -S apt upgrade -y ) < ~/Documents/dotfiles/auto_update/.passwd;
+(sudo -S apt autoremove ) < ~/Documents/dotfiles/auto_update/.passwd;
+
