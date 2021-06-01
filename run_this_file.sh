@@ -1,7 +1,6 @@
-echo"
-This bash script helps you finish relative setting 
-=====================================================
-"
+echo "This bash script helps you finish relative setting "
+echo "====================================================="
+
 
 cd ~
 mkdir .junk
@@ -23,12 +22,10 @@ echo "**********Successfully source .bashrc"
 # source .gitconfig 
 
 
-echo "
-=====================================================
-Configuration almost done,there are few things you need to do:
-1.Please change your password in ~/Documents/dotfiles/auto_update/.passwd
-2.check what else files you need in /dotfiles that didn't automatically linked by this script
-
-Enjoy your day!  :D
-=====================================================
-"
+echo "====================================================="
+echo "Configuration almost done,there are few things you need to do:"
+echo "1.Please change your password in ~/Documents/dotfiles/auto_update/.passwd"
+echo "2.check what else files you need in /dotfiles that didn't automatically linked by this script"
+echo "*"
+echo "Enjoy your day!  :D"
+echo "====================================================="
