@@ -17,25 +17,25 @@ ln -s Documents/dotfiles/auto_update/.update .update
 echo "***Successfully link .update"
 
 # ln -s Documents/dotfiles/.zshrc .zshrc
-echo "***Successfully link .zshrc"
+# echo "***Successfully link .zshrc"
 
 # ln -s Documents/dotfiles/.tmux.conf .tmux.conf
-echo "***Successfully link .tmux.conf"
+# echo "***Successfully link .tmux.conf"
 
 # ln -s Documents/dotfiles/.gitconfig .gitconfig
-echo "***Successfully link .gitconfig"
+# echo "***Successfully link .gitconfig"
 
 source .bashrc
 echo "***Successfully source .bashrc"
 
 # source .zshrc 
-echo "***Successfully source .zshrc"
+# echo "***Successfully source .zshrc"
 
 # source .tmux.conf 
-echo "***Successfully source .tmux.conf"
+# echo "***Successfully source .tmux.conf"
 
 # source .gitconfig 
-echo "***Successfully source .gitconfig"
+# echo "***Successfully source .gitconfig"
 
 
 echo "====================================================="
