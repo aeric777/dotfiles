@@ -1,10 +1,8 @@
 #!/bin/bash
 
-
 echo "====================================================="
 echo "*This bash script helps you finish relative setting "
 echo "====================================================="
-
 
 cd ~
 mkdir .junk
@@ -32,12 +30,7 @@ echo "***Successfully link .gitconfig"
 source .bashrc
 echo "***Successfully source .bashrc"
 
-source .tmux.conf 
-echo "***Successfully source .tmux.conf"
-
-source .gitconfig 
-echo "***Successfully source .gitconfig"
-
+#Be carefull!
 # source .zshrc 
 # echo "***Successfully source .zshrc"
 
