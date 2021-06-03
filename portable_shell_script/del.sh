@@ -1,4 +1,5 @@
-#
+#!/bin/bash
+
 # del - move named files to a hidden wastbasket 
 # Version-1
 #

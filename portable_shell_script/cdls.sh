@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 cdls() {
         local dir="$1"
         local dir="${dir:=$HOME}"

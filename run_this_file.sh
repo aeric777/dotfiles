@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 echo "====================================================="
 echo "*This bash script helps you finish relative setting "
 echo "====================================================="
@@ -16,27 +19,27 @@ echo "***Successfully link .vimrc"
 ln -s Documents/dotfiles/auto_update/.update .update
 echo "***Successfully link .update"
 
+
+ln -s Documents/dotfiles/.tmux.conf .tmux.conf
+echo "***Successfully link .tmux.conf"
+
+ln -s Documents/dotfiles/.gitconfig .gitconfig
+echo "***Successfully link .gitconfig"
+
 # ln -s Documents/dotfiles/.zshrc .zshrc
 # echo "***Successfully link .zshrc"
-
-# ln -s Documents/dotfiles/.tmux.conf .tmux.conf
-# echo "***Successfully link .tmux.conf"
-
-# ln -s Documents/dotfiles/.gitconfig .gitconfig
-# echo "***Successfully link .gitconfig"
 
 source .bashrc
 echo "***Successfully source .bashrc"
 
+source .tmux.conf 
+echo "***Successfully source .tmux.conf"
+
+source .gitconfig 
+echo "***Successfully source .gitconfig"
+
 # source .zshrc 
 # echo "***Successfully source .zshrc"
-
-# source .tmux.conf 
-# echo "***Successfully source .tmux.conf"
-
-# source .gitconfig 
-# echo "***Successfully source .gitconfig"
-
 
 echo "====================================================="
 echo "Configuration almost done,there are few things you need to do:"
